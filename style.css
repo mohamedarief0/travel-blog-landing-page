@@ -1,0 +1,109 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-card{
+    display: flex;
+    margin:30px ;
+    position: relative;
+    /* justify-content: space-around; */
+}
+.main-card-img{
+    border-radius: 10px;
+    width: 700px;
+    height:420px;
+    margin: 0 15px;
+}
+.main-card-detials{
+    position: absolute;
+    top: 0;
+    color: white;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.item{
+    display: flex;
+    
+}
+.content{
+    text-shadow: 4px black;
+    margin-block-start: -10px;
+    font-size: 28px;
+    font-weight: 600;
+    width: 250px;
+    /* display: flex; */
+}
+.btn{
+    margin-top: 150px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: none;
+}
+
+/* small card box */
+.small-card{
+    border: 1px solid lightgrey;
+    width: 380px;
+    height:190px;
+    display: flex;
+    border-radius: 6px;
+    padding: 10px;
+    position: relative;
+}
+.small-card-img{
+    width: 150px;
+    height: 180px;
+    border-radius: 8px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+
+}
+.flex{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.small-card-content{
+    padding: 9px;
+}
+.small-notes{
+    display: flex;
+    margin-top: -15px
+}
+.persion{
+    margin-top:20px;
+    margin-left: 3px;
+
+}
+.samll-card-time{
+   display: flex;
+   gap: 10px;
+   
+}
+.time-btn{
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid rgb(35, 35, 35);
+    border-radius: 5px;
+}
+/* .time1{
+    border: 1px solid black;
+    padding-top:-2px;
+    display: inline;
+    border-radius: 7px;
+    box-sizing: border-box;
+
+
+}
+.time2{
+    border: 1px solid black;
+    background-color: white;
+    
+    border-radius: 7px;
+    box-sizing: border-box;
+
+
+
+} */
